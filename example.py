@@ -5,5 +5,5 @@ def substract(a,b):
 	return a+b
 
 def test_add():
-	assert(1,1) == 2
-	assert(5.5,3.2) == 8.7
+	assert add(1,1) == 2
+	assert add(5.5,3.2) == 8.7
