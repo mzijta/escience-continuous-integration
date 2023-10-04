@@ -2,7 +2,7 @@ def add(a,b):
 	return a+b
 
 def subtract(a,b):
-	return a+b
+	return a-b
 
 def test_add():
 	assert add(1,1) == 2
@@ -10,4 +10,4 @@ def test_add():
 
 def test_subtract():
 	assert subtract(1,1) == 0
-	assert substract(10,-10) == 20
+	assert subtract(10,-10) == 20
